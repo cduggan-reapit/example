@@ -33,6 +33,7 @@ jobs:
   initialize-dotnet-repository:
     permissions: 
       contents: write
+      actions: write
     runs-on: ubuntu-latest
     steps:
       - name: ⚒️ log inputs
